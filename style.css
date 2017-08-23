@@ -1,0 +1,39 @@
+body {
+  background-image: url("Images/SouthParkBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: green solid 2px;
+  /*Need border to shrink height with screen*/
+  /*Need to update background to show more of the ground*/
+}
+h1 {
+  text-align: center;
+}
+
+/*BEG container for bottom of page*/
+.allCharacters {
+  border: blue solid 2px;
+  margin: 20px;
+}
+.navbar-default {
+  background-color: inherit;
+}
+/*END container for bottom of page*/
+
+/*BEG style for individual characters*/
+.character {
+    border: pink solid 2px;
+}
+.cartman {
+  background-color: red;
+}
+.kenny {
+  display: flex;
+  margin-left: 200px;
+  margin-top: -30px;
+  background-color: orange;
+}
+.butters {
+  background-color: blue;
+}
+/*END style for individual characters*/
