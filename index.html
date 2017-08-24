@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <!-- set viewport to device width to allow responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS from CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- link to custom stylesheet (always require after Bootstrap) -->
-    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-    <!-- jQuery from CDN -->
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <!-- link to custom javascript file (always require after external JS libraries) -->
-    <script src="app.js"></script>
-    <title>Who Killed Kenny</title>
-  </head>
-  <body>
-    <h1>Who Killed kenny?</h1>
+<head>
+  <meta charset="utf-8">
+  <!-- set viewport to device width to allow responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS from CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- link to custom stylesheet (always require after Bootstrap) -->
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  <!-- jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <!-- link to custom javascript file (always require after external JS libraries) -->
+  <script src="app.js"></script>
+  <title>Who Killed Kenny</title>
+</head>
+<body>
+
+    <h1 style="font-family: South Park">Who Killed kenny?</h1>
     <div class="container-fluid">
-      <div class="allCharacters navbar navbar-default navbar-fixed-bottom">
-        <div class="row"></div>
+      <h3>Race against a friend to see who can kill Kenny first!</h3>
+      <h2>How to play</h2>
+      <p>Press the start button and watch Kenny try to run away from you. Press the specified keys below as quickly as possible to chase Kenny and see who can kill Kenny first<br>
+        <b>Cartman:</b>Right arrow key<br>
+        <b>Butters:</b> 1 key</p>
+        <button class="beginGame">Chase Kenny!</button>
+        <input type="reset" value="Reset" onClick="location.reload()">
+        <h2 class="winner cartmanWins">Cartman killed Kenny!</h2>
+        <h2 class="winner buttersWins">Butters killed Kenny!</h2>
+        <form>
+        <div class="allCharacters wrapper navbar navbar-default navbar-fixed-bottom">
+          <div class="row"></div>
           <img class="character cartman" src="Images/KennyAlive.png" style="width:75px">
           <div class="row"></div>
           <img class="character kenny" src="Images/KennyAlive.png" style="width:75px">
           <div class="row butters"></div>
           <img class="character butters" src="Images/KennyAlive.png" style="width:75px">
-    </div>
-  </div>
-
+        </div>
+      </div>
+    </form>
   </body>
-</html>
+  </html>
