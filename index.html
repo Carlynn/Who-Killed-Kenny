@@ -16,25 +16,29 @@
 </head>
 <body>
 
-    <h1 style="font-family: South Park">Who Killed kenny?</h1>
-    <div class="container-fluid">
+  <h1><img src="Images/Title.png"></h1>
+  <div class="container-fluid">
+    <div class="page-content">
       <h3>Race against a friend to see who can kill Kenny first!</h3>
-      <h2>How to play</h2>
-      <p>Press the start button and watch Kenny try to run away from you. Press the specified keys below as quickly as possible to chase Kenny and see who can kill Kenny first<br>
-        <b>Cartman:</b>Right arrow key<br>
+      <h2><u><b>How to play</u></b></h2>
+      <p>Press the start button and watch Kenny try to run away from you. You and a friend press the specified keys below as quickly as possible to chase Kenny and see who can kill Kenny first.<br>
+        <b>Cartman:</b> Right arrow key<br>
         <b>Butters:</b> 1 key</p>
         <button class="beginGame">Chase Kenny!</button>
         <input type="reset" value="Reset" onClick="location.reload()">
-        <h2 class="winner cartmanWins">Cartman killed Kenny!</h2>
-        <h2 class="winner buttersWins">Butters killed Kenny!</h2>
-        <form>
+      </div>
+      <div class="wrapper navbar navbar-default navbar-fixed-bottom">
+        <img class="winner buttersWins" src="Images/Killed Kenny Scene-Gun 01.png" style="width:500px">
+        <img class="winner cartmanWins" src="Images/Killed Kenny Scene-Knife 01.png" style="width:500px">
+      </div>
+      <form>
         <div class="allCharacters wrapper navbar navbar-default navbar-fixed-bottom">
           <div class="row"></div>
-          <img class="character cartman" src="Images/KennyAlive.png" style="width:75px">
+          <img class="character cartman" src="Images/CartmanWeapon-knife.png" style="width:75px">
           <div class="row"></div>
           <img class="character kenny" src="Images/KennyAlive.png" style="width:75px">
           <div class="row butters"></div>
-          <img class="character butters" src="Images/KennyAlive.png" style="width:75px">
+          <img class="character butters" src="Images/ButtersWeapon-Gun.png" style="width:70px">
         </div>
       </div>
     </form>

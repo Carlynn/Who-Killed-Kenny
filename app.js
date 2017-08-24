@@ -31,6 +31,8 @@ $(document).ready(function() {
       $(".cartmanWins").css("visibility", "visible");
       //Stop all keydown buttons from working
       $(document).off("keydown");
+      $(".cartman").css("visibility","hidden");
+      $(".kenny").css("visibility","hidden");
     };
     // Run this if butters is less than the total width of the screen
     if (buttersSteps < width-100) {
@@ -46,6 +48,8 @@ $(document).ready(function() {
       $(".buttersWins").css("visibility", "visible");
       //Stop all keydown buttons from working
       $(document).off("keydown");
+      $(".butters").css("visibility","hidden");
+      $(".kenny").css("visibility","hidden");
     };
   });
 
